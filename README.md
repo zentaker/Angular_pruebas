@@ -6,3 +6,38 @@ Para que sirven las pruebas
 Ventajas 
 - Ayuda a encontrar errores
 - permite probar xodigo escrito por otros programadores 
+- permite detectar errores antes de que sucedan en produccion 
+- ayuda a generar un codigo mas limpio, reportes y estadisticas 
+
+Desventajas 
+- no garantizan que el codigo este libre de errores 
+- probar todo el codigo, puede ser un trabajo aun mas largo que la misma aplicacion 
+- costos de produccion pueden aumentar
+- no es muy util si trabajas solo 
+
+## Tipos de pruebas
+### Automaticas 
+unitarias
+- pruebas de segmentos independientes de forma aislada
+- son pruebas aisladas sin presencia de recursos extrenos, como llamadas a un API u otro componente o servicio 
+- Un login.component.ts nesesita de un usuario.service y un router para ello se simulan los otros componentes con peticiones falsas para probar el login.component.ts
+- nos ayudan a probar rapidamente metodos y funciones 
+- podemos escribir muchas pruebas rapidamente 
+- Podemos someter a pruebas de estress de nuestros metodos 
+- no sabriamos los tiempos de respuesta de servicios o APIs
+
+
+Integracion
+- incluyen 2 o mas componentes para hacer una tarea en espesifico 
+- al momento de trabajar con los botones que activan al componente se comienza a probar la integracion 
+
+Extremo a extremo
+- son pruebas bien lentas. probar algo en espesifico 
+- evaluar todo el proceso desde el login hasta que se active el metodo 
+
+
+
+
+
+
+
