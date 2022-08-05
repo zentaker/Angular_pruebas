@@ -36,6 +36,13 @@ Extremo a extremo
 - evaluar todo el proceso desde el login hasta que se active el metodo 
 
 
+## ciclo de vida de las pruebas 
+beforeAll > antes de todas las pruebas 
+beforeEach > antes de cada una de las pruebas
+afterAll > despues de todas las pruebas
+afterEach > despues de cada prueba 
+
+
 
 
 
