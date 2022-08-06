@@ -44,7 +44,9 @@ afterEach > despues de cada prueba
 
 
 
+## cobertura de pruebas 
 
+<img width="854" alt="Screenshot 2022-08-05 at 8 53 45 PM" src="https://user-images.githubusercontent.com/46875264/183229065-287e0681-78bb-4043-a6c0-49881d1f96e2.png">
 
 
 
